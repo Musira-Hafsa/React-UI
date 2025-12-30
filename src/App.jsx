@@ -16,7 +16,7 @@ const LandingPage = () => {
             <span className="self-center text-xl font-bold whitespace-nowrap">Bank<span className="text-blue-600">.</span></span>
           </a>
           <div className="flex md:order-2 space-x-3">
-            <button className="text-white bg-blue-600 hover:bg-blue-700 font-medium rounded-full text-sm px-6 py-2 transition-all">Get </button>
+            <button className="text-white bg-blue-600 hover:bg-blue-700 font-medium rounded-full text-sm px-6 py-2 transition-all">Get Started</button>
             <button 
               onClick={() => setIsOpen(!isOpen)}
               className="inline-flex items-center p-2 w-10 h-10 justify-center text-gray-400 rounded-lg md:hidden hover:bg-white/10"
